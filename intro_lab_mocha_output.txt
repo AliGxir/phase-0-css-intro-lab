@@ -1,0 +1,28 @@
+
+> phase-0-css-intro-lab@1.0.0 test
+> mocha -R mocha-multi --timeout 5000 --reporter-options spec=-,json=.results.json
+
+
+
+  index.html
+    ✔ contains a <link> tag
+    ✔ correctly links to the style.css file with a relative path
+
+  index.css
+    ✔ contains valid CSS
+    ✔ has a rule for the <body> tag
+    ✔ sets <body> background to #00b3e6
+    ✔ has a rule for <div> tags
+    ✔ sets <div> width to 700px
+    ✔ sets <div> margin to auto
+    ✔ sets <div> font-family to 'Helvetica Neue'
+    ✔ sets <div> background to white
+    ✔ sets <div> padding to 30px
+    ✔ has a rule for elements with an id of main-header
+    ✔ sets #main-header font-size to 22px
+    ✔ has a rule for elements with a class of perspective-questions
+    ✔ sets .perspective-questions font-style to italic
+
+
+  15 passing (10ms)
+
